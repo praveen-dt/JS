@@ -1,5 +1,5 @@
 console.log('hello mf')
 const amt = 5000
 let minrew = 25
-
-console.table([amt, minrew])
+let halving
+console.table([amt, minrew, halving])
