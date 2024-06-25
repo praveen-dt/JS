@@ -7,4 +7,3 @@ let states;  //undefined
 
 console.log(typeof(age))
 
-// object
