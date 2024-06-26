@@ -59,8 +59,8 @@ obj.id = '47478598'
 obj.isLoggedin = 'false'
 
 //console.log(obj)
-console.log(Object.keys(obj)) //this is erry important in backend development
-console.log(Object.values(obj)) 
+// console.log(Object.keys(obj)) //this is erry important in backend development
+// console.log(Object.values(obj)) 
 
 
 const newobj = {
@@ -87,3 +87,25 @@ const obj3 =  Object.assign(obj1,obj2)
 
 const obj4 = {...obj1, ...obj2} // we will use this mostly
 //console.log(obj4)
+
+
+
+//object destructuring important
+
+const gg = {
+    god : "infinity",
+    cost : 2,
+    where : "there"
+}
+//differect ways to access data in gg object
+//easy and common
+//console.log(gg.god)
+//more deconstruction
+const {god} = gg
+//console.log(god)
+//moreeee deconstruction
+const{god : good} = gg
+//console.log(good)
+
+
+
